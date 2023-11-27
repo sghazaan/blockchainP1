@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	Node "github.com/siftikharm/assignment02bca/node"
+	Node "github.com/sghazaan/blockchainP1/node"
 )
 
 type Neighbour struct {

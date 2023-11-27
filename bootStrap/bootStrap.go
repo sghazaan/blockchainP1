@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	Net "github.com/siftikharm/assignment02bca/network"
+	Net "github.com/sghazaan/blockchainP1//network"
 )
 
 var ports []int

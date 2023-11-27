@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/siftikharm/assignment02bca/blockchain"
+	"github.com/sghazaan/blockchainP1/blockchain"
 )
 
 type Node struct {
