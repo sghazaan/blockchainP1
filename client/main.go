@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-
-// 	Node "github.com/siftikharm/assignment02bca/node"
-// )
+	// "github.com/sghazaan/blockchainP1/node" 
+	Node "github.com/sghazaan/blockchainP1/node"
+)
 
 func main() {
-	// node := Node.ConnectWithBootstrap("4000")
-	// go node.LaunchServer()
+	node := Node.ConnectWithBootstrap("4000")
+	go node.LaunchServer()
 
 	for _, neigh := range node.Neighbours {
 		node.Connect(neigh, "addNeigh")
